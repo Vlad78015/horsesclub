@@ -82,8 +82,8 @@ $width: 1200px;
         position: absolute;
         width: 272px;
         height: 86px;
-        right: 180px;
-        top: 140px;
+        right: 160px;
+        top: 120px;
     }
 }
 .header{
@@ -120,7 +120,6 @@ $width: 1200px;
         color: #202020;
         text-transform: uppercase;
         transition: 0.5s;
-        margin-left: 20px;
     }
     &__link:hover{
         cursor: pointer;
@@ -283,7 +282,7 @@ $width: 1200px;
         height: 371px;
         bottom: 180px;
         position: absolute;
-        right: 220px;
+        right: 230px;
         transform: scale(1.5);
     }
 }
@@ -475,7 +474,7 @@ $width: 1200px;
     flex-wrap: wrap;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./images/Газон\ 1.png);
+    background-image: url(./images/grass.png);
     height: 120vh;
 
 
@@ -671,6 +670,35 @@ $width: 1200px;
         left: 20px;
     }
 }
+.section-about{
+
+    &__block{
+        margin-top: 80px;
+    }
+    &__text{
+        margin-top: 10px;
+        width: 400px;
+    }
+}
+.section3{
+
+    &__clouds{
+        margin-top: 140px;
+    }
+    &__block-button{
+        margin-top: -20px;
+    }
+    &__womanandhorse{
+        margin-top: 190px;
+        margin-left: 250px;
+        transform: scale(0.4);
+    }
+    &__boyandhorse{
+        margin-top: 200px;
+        margin-right: 260px;
+        transform: scale(0.4);
+    }
+}
 } 
 @media (max-width: 991px){
     .header{
@@ -782,6 +810,16 @@ $width: 1200px;
             padding: 7px;
             border-radius: 3px;
             border: 1px solid #008139;
+            margin: 0 20px;
+        }
+    }
+    .block-info{
+
+        &__right{
+            display: none;
+        }
+        &__left__button{
+            transform: translateX(210px) translateY(50px);
         }
     }
 }
